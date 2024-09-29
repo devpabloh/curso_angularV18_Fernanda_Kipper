@@ -1,0 +1,25 @@
+Estrutura do projeto / Angular
+
+src/: Contém todo o código fonte da aplicação.
+
+app/: Diretório principal da aplicação onde os componentes, serviços e módulos são organizados.
+
+assets/: Diretório para armazenar arquivos estáticos, como imagem e fontes.
+
+enviromments/: Contém arquivos de configurações para diferentes ambientes (desenvolvimento, produção,)
+
+main.ts: Arquivo de entrada principal que inicializa o módulo principal da aplicação.
+
+index.html: página HTML principal, onde o aplicativo Angular é carregado.
+
+styles.css: Arquivo de estilos globais da aplicação.
+
+angular.json: Arquivo de configuração do Angular CLI, que define como o projeto é construído e servido
+
+package.json: Lista as dependências do projeto e scripts de build.
+
+Quando usamos CLI no Angular para criar um componente, ele sempre vai ter quatro arquivos:
+1 - component.html estrutura do angular.
+2 - component.css que vai a parte de estilização.
+3 - component.spec.ts que vai a parte de testes unitários do projeto.
+4 - .component.ts arquivo do modelo dele, que vai conter o @component e a exportação da classe.
